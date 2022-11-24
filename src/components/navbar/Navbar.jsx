@@ -1,5 +1,6 @@
 import { NavLink } from 'react-router-dom'
 import logo from '../../assets/logo.png'
+import { Button } from '../button/Button'
 
 import './Navbar.scss'
 
@@ -17,7 +18,7 @@ export const Navbar = () => {
           <li className='navbar__menu__item'><NavLink className='navbar__menu__item__link' to='/careers'>Careers</NavLink></li>
         </ul>
 
-        <button className='navbar__button'>Request Invite</button>
+        <Button>Request Invite</Button>
       </div>
     </nav>
   )
