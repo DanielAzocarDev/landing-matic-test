@@ -8,10 +8,10 @@ export const App = () => {
     <Routes>
       <Route path="/" element={<Layout />}>
         <Route index element={<Home />} />
-        <Route path="about" />
-        <Route path="contact" />
-        <Route path="blog" />
-        <Route path="careers" />
+        <Route path="about" element={<Home />} />
+        <Route path="contact" element={<Home />} />
+        <Route path="blog" element={<Home />} />
+        <Route path="careers" element={<Home />} />
       </Route>
     </Routes>
   )
