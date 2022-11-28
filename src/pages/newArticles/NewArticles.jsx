@@ -27,10 +27,6 @@ export const NewArticles = () => {
         </form>
       </ArticlesWrapper>
 
-      <ArticlesWrapper title='Previous Articles' subtitle='Review and edit previous blog posts published on to the homepage.'>
-        <div>hola</div>
-      </ArticlesWrapper>
-
       <ArticlesSection />
     </div>
   )
