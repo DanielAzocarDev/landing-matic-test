@@ -1,8 +1,8 @@
 
 import './Button.scss'
 
-export const Button = ({ children }) => {
+export const Button = ({ children, actions }) => {
   return (
-    <button className='button'>{children}</button>
+    <button className='button' onClick={actions}>{children}</button>
   )
 }
