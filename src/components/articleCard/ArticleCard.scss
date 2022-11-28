@@ -39,4 +39,9 @@
     letter-spacing: -0.02em;
     color: #959499;
   }
+
+  &:hover &__title {
+    font-weight: 500;
+    color: #77BDA3;
+  }
 }
