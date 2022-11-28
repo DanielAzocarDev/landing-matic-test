@@ -16,11 +16,11 @@ export const Footer = () => {
               <img className='footer__logo__image' src={logo} alt="" />
             </div>
             <div className='footer__social'>
-              <FontAwesomeIcon size='20px' icon={faFacebook} />
-              <FontAwesomeIcon size='20px' icon={faYoutube} />
-              <FontAwesomeIcon size='20px' icon={faTwitter} />
-              <FontAwesomeIcon size='20px' icon={faPinterest} />
-              <FontAwesomeIcon size='20px' icon={faInstagram} />
+              <FontAwesomeIcon icon={faFacebook} />
+              <FontAwesomeIcon icon={faYoutube} />
+              <FontAwesomeIcon icon={faTwitter} />
+              <FontAwesomeIcon icon={faPinterest} />
+              <FontAwesomeIcon icon={faInstagram} />
             </div>
           </div>
           <div className='footer__links'>
